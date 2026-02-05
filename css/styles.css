@@ -1,0 +1,14 @@
+body{background:#000;color:#fff;font-family:Arial,sans-serif}
+.hero{text-align:center;padding:4rem 1rem}
+.logo{max-width:280px}
+.cta-button{background:#ff3c3c;color:#fff;padding:.75rem 2rem;border-radius:30px;text-decoration:none;margin:.5rem;display:inline-block}
+.secondary{background:#ff9c2a}
+section{padding:3rem 1rem;max-width:1000px;margin:auto}
+.service-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+.service-card{background:#111;padding:1.5rem;border-radius:8px;text-align:center}
+.contact form{max-width:500px;margin:auto;display:flex;flex-direction:column}
+.contact label{margin-bottom:.75rem}
+.contact input,.contact textarea{padding:.75rem;margin-top:.25rem}
+.consent{font-size:.85rem}
+.call-now{position:fixed;bottom:20px;right:20px;background:#ff3c3c;color:#fff;padding:.75rem 1.25rem;border-radius:30px;text-decoration:none;z-index:1000}
+footer{text-align:center;padding:1.5rem;color:#aaa}
