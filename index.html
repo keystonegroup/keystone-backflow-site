@@ -49,19 +49,71 @@
 
 <section id="contact" class="contact">
   <h2>Request Service</h2>
-  <form action="https://formspree.io/f/your-form-id" method="POST">
-    <label>Name<input type="text" name="name" required></label>
-    <label>Email<input type="email" name="email" required></label>
-    <label>Phone<input type="tel" name="phone"></label>
-    <label>Message<textarea name="message" rows="4"></textarea></label>
+  <p class="contact-subtext">
+    Fast response for testing, repairs, and installations.
+  </p>
+
+  <form
+    action="https://formspree.io/f/YOUR_FORM_ID"
+    method="POST"
+    class="contact-form"
+  >
+
+    <div class="field">
+      <label for="name">Name</label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        placeholder="John Smith"
+        required
+      >
+    </div>
+
+    <div class="field">
+      <label for="email">Email</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="you@email.com"
+        required
+      >
+    </div>
+
+    <div class="field">
+      <label for="phone">Phone</label>
+      <input
+        id="phone"
+        name="phone"
+        type="tel"
+        placeholder="813-761-1314"
+      >
+    </div>
+
+    <div class="field">
+      <label for="message">How can we help?</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        placeholder="Backflow testing, repair, installation, or question…"
+      ></textarea>
+    </div>
 
     <label class="consent">
       <input type="checkbox" required>
-      I agree to be contacted by Keystone Backflow Services via phone, email, or SMS.
-      Message & data rates may apply. Reply STOP to opt out.
+      I agree to be contacted by Keystone Backflow Services via phone or email.
     </label>
 
-    <button type="submit">Submit Request</button>
+    <button type="submit" class="submit-btn">
+      Request Service
+    </button>
+
+    <p class="form-note">
+      Same-week service available • Licensed & insured
+    </p>
+
   </form>
 </section>
 
